@@ -1,0 +1,50 @@
+Layout {
+  FileType : "delimited"
+  Delimiter : ","
+  Latitude : "1"
+  Longitude : "0"
+  SkipRows : "1"
+  TextCodec : "System"
+  FieldDefinitions {
+    0 {
+      Name : "lon"
+      Type : "double"
+    }
+    1 {
+      Name : "lat"
+      Type : "double"
+    }
+    2 {
+      Name : "PON_ID"
+      Type : "string"
+    }
+    3 {
+      Name : "BARI"
+      Type : "string"
+    }
+    4 {
+      Name : "NFH"
+      Type : "int"
+    }
+    5 {
+      Name : "NAME"
+      Type : "string"
+    }
+    6 {
+      Name : "SEQNO"
+      Type : "int"
+    }
+    7 {
+      Name : "DESCP"
+      Type : "string"
+    }
+    8 {
+      Name : "LMK"
+      Type : "int"
+    }
+    9 {
+      Name : "vill"
+      Type : "string"
+    }
+  }
+}

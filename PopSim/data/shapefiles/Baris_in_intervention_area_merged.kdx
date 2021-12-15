@@ -1,0 +1,34 @@
+Layout {
+  FileType : "delimited"
+  Delimiter : ","
+  Latitude : "1"
+  Longitude : "0"
+  SkipRows : "1"
+  TextCodec : "System"
+  FieldDefinitions {
+    0 {
+      Name : "lon"
+      Type : "double"
+    }
+    1 {
+      Name : "lat"
+      Type : "double"
+    }
+    2 {
+      Name : "AREA"
+      Type : "int"
+    }
+    3 {
+      Name : "PERIMETER"
+      Type : "int"
+    }
+    4 {
+      Name : "BARIS"
+      Type : "string"
+    }
+    5 {
+      Name : "vill"
+      Type : "string"
+    }
+  }
+}
